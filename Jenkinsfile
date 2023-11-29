@@ -1,6 +1,6 @@
 node {
 
-   def registryProjet='formation/'
+   def registryProjet='formation-enora/'
    def IMAGE="${registryProjet}app:${version}"
 
     stage('Clone') {
